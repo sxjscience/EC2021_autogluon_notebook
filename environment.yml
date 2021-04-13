@@ -9,4 +9,5 @@ dependencies:
   - dill
   - pandas
   - plotly
-  - "autogluon[all]"
+  - pip:
+    - autogluon[all]
