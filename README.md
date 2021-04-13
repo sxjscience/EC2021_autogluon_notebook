@@ -1,4 +1,4 @@
-# EC2021 AutoGluon Notebook 
+# AutoGluon Notebook Submission to EC2021 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sxjscience/EC2021_autogluon_notebook/HEAD?filepath=Xingjian_Shi_01_Automated_Machine_Learning_for_Earth_Science_via_AutoGluon.ipynb)
 
