@@ -1,5 +1,8 @@
 # EC2021 AutoGluon Notebook 
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sxjscience/EC2021_autogluon_notebook/HEAD?filepath=Xingjian_Shi_01_Automated_Machine_Learning_for_Earth_Science_via_AutoGluon.ipynb)
+
+
 Notebook that demonstrates the usage of [AutoGluon](https://github.com/awslabs/autogluon) at [EarthCube 2021](https://www.earthcube.org/2021-earthcube-annual-meeting).
 
 You may learn how to use AutoGluon via the notebook in [Notebook](./Xingjian_Shi_01_Automated_Machine_Learning_for_Earth_Science_via_AutoGluon.ipynb).
@@ -17,3 +20,4 @@ We used the same script to reach 82/1692 in the competition. The screenshot for 
 ![screenshot](forest_cover_type.png)
 
 Feel free to checkout our website: https://auto.gluon.ai/
+
