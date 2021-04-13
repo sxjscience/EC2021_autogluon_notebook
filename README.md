@@ -7,11 +7,12 @@ Notebook that demonstrates the usage of [AutoGluon](https://github.com/awslabs/a
 
 You may learn how to use AutoGluon via the notebook in [Notebook](./Xingjian_Shi_01_Automated_Machine_Learning_for_Earth_Science_via_AutoGluon.ipynb).
 
-To train a model for [Forest Cover Type Prediction](https://www.kaggle.com/c/forest-cover-type-prediction/overview), you can try the following command.
+To train a model for [Forest Cover Type Prediction](https://www.kaggle.com/c/forest-cover-type-prediction/overview) with the `best_quality` option, you can try the following command.
 
 ```bash
 wget https://deep-earth.s3.amazonaws.com/datasets/earthcube2021_demo/forest-cover-type-prediction.zip -O forest-cover-type-prediction.zip
 unzip -o forest-cover-type-prediction.zip -d forest-cover-type-prediction
+python3 train_forest_cover_type.py
 ```
 
 This will generate a file named `stack_ensemble_submission.csv` and a model that is saved to `forest_cover_ensemble`. 
