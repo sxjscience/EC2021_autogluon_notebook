@@ -10,4 +10,5 @@ dependencies:
   - pandas
   - plotly
   - pip:
-    - autogluon[all]
+    - autogluon
+    - mxnet
