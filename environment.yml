@@ -1,14 +1,11 @@
-name: example-environment
+name: autogluon-ec2021-environment
 channels:
   - conda-forge
 dependencies:
   - numpy
   - psutil
-  - toolz
   - matplotlib
-  - dill
   - pandas
-  - plotly
   - pip:
     - autogluon
     - mxnet
