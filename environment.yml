@@ -4,10 +4,12 @@ channels:
   - pytorch
 dependencies:
   - numpy
+  - scipy
   - psutil
   - matplotlib
   - pandas
   - pytorch
   - torchvision
+  - scikit-learn
   - pip:
     - mxnet
