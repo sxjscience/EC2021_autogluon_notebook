@@ -1,11 +1,13 @@
 name: autogluon-ec2021-environment
 channels:
   - conda-forge
+  - pytorch
 dependencies:
   - numpy
   - psutil
   - matplotlib
   - pandas
+  - pytorch
+  - torchvision
   - pip:
     - mxnet
-    - torch
