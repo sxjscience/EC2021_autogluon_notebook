@@ -12,4 +12,7 @@ dependencies:
   - torchvision
   - scikit-learn
   - pip:
+    - Cython
+    - pybind11
+    - autogluon
     - mxnet
