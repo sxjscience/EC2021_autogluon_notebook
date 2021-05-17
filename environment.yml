@@ -1,7 +1,9 @@
 name: autogluon-ec2021-environment
 dependencies:
   - python=3.8
+  - pip
   - pip:
+    - --find-links https://download.pytorch.org/whl/torch_stable.html
     - Cython
     - pybind11
     - scikit-learn
@@ -9,3 +11,5 @@ dependencies:
     - scipy
     - pandas
     - mxnet
+    - torch==1.8.1+cpu
+    - autogluon
