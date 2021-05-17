@@ -1,12 +1,6 @@
 name: autogluon-ec2021-environment
-channels:
-  - conda-forge
-  - pytorch
 dependencies:
-  - psutil
-  - pytorch
-  - torchvision
-  - numpy
+  - python=3.8
   - pip:
     - Cython
     - pybind11
