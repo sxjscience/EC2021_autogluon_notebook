@@ -6,12 +6,12 @@ dependencies:
   - psutil
   - pytorch
   - torchvision
+  - numpy
   - pip:
     - Cython
     - pybind11
     - scikit-learn
     - matplotlib
-    - numpy
-    - scipys
+    - scipy
     - pandas
     - mxnet
