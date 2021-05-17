@@ -3,16 +3,15 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - numpy
-  - scipy
   - psutil
-  - matplotlib
-  - pandas
   - pytorch
   - torchvision
-  - scikit-learn
   - pip:
     - Cython
     - pybind11
-    - autogluon
+    - scikit-learn
+    - matplotlib
+    - numpy
+    - scipys
+    - pandas
     - mxnet
